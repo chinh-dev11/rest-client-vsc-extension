@@ -1,0 +1,1 @@
+# rest-client-vsc-extension
