@@ -5,4 +5,13 @@ GET https://api.github.com/users/chinh-dev11
 GET https://api.github.com/users/chinh-dev11/repos HTTP/1.1
 
 ### req3
-GET https://api.github.com/repos/chinh-dev11/rest-client-vsc-extension/contents/users/1 HTTP/1.1
+GET https://api.github.com/repos/chinh-dev11/rest-client-vsc-extension/contents/users
+
+### req4
+POST https://api.github.com/repos/chinh-dev11/rest-client-vsc-extension/contents/users
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
