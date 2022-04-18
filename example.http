@@ -5,5 +5,4 @@ GET https://api.github.com/users/chinh-dev11
 GET https://api.github.com/users/chinh-dev11/repos HTTP/1.1
 
 ### req3
-GET https://api.github.com/repos/chinh-dev11/rest-client-vsc-extension/users HTTP/1.1
-
+GET https://api.github.com/repos/chinh-dev11/rest-client-vsc-extension/contents/users/1 HTTP/1.1
